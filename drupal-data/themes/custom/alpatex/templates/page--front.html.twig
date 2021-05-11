@@ -1,0 +1,19 @@
+{% extends "themes/custom/alpatex/templates/base.html.twig" %}
+
+{% block main %}
+  <div class="welcome">
+    <h1>Bienvenido a Alpatex</h1>
+  </div>
+
+  <div class="container">
+    <div class="home-video mt-5">
+      <h2>Presentación</h2>
+      {{ page.home_video }}
+    </div>
+
+    <h2>Nuestros productos</h2>
+    <div class="row">
+      {{ page.home_productos }}
+    </div>
+  </div>
+{% endblock %}

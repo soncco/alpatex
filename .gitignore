@@ -1,0 +1,13 @@
+db-data/
+drupal-data/files
+drupal-data/modules
+drupal-data/themes/custom/alpatex/js/alpatex.js
+drupal-data/themes/custom/alpatex/css/*
+
+node_modules
+
+.env
+
+.DS_Store
+yarn.lock
+*.gz

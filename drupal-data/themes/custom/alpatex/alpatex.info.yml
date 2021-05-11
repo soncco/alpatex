@@ -1,0 +1,28 @@
+name: ALPATEX
+type: theme
+description: Tema principal del sitio web de ALPATEX
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: false
+libraries:
+  - alpatex/bootstrap4
+  - alpatex/font-awesome
+  - alpatex/slick
+  - alpatex/parallax
+  - alpatex/lity
+  - alpatex/lightbox
+  - alpatex/animatecss
+  - alpatex/wow
+  - alpatex/global-styling
+regions:
+  header: Header
+  main_nav: Menú principal
+  secondary_nav: Menú secundario
+  help: Ayuda
+  content: Content
+  sidebar_first: Lado izquierdo
+  sidebar_second: Lado derecho
+  footer: Footer
+
+  home_video: Home video
+  home_productos: Home productos
